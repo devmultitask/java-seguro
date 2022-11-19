@@ -6,12 +6,12 @@ Java Seguro - aprenda Java e conceitos de segurança
 
 ## Tudo junto
 
-* [Playlist]()
+* [Playlist](https://youtube.com/playlist?list=PL2XKkc9gm2WTPFgDGa5pVrIooACUu6DTI)
 
 ## Por partes
 
 * [Java Seguro - parte 1 - MD5](https://youtu.be/fwpWAH9-b_g)
-* [Java Seguro - parte 2 - MD5 com salt](https://youtube.com/playlist?list=PL2XKkc9gm2WTPFgDGa5pVrIooACUu6DTI)
+* Java Seguro - parte 2 - MD5 com salt
 
 ## Referências
 
