@@ -4,7 +4,7 @@ package com.boaglio.javaseguro;
  * 
  * https://docs.oracle.com/en/java/javase/17/docs/specs/security/standard-names.html
  * 
- * @author fb
+ * @author Fernando Boaglio
  */
 
 public enum MessageDigestAlgorithms {

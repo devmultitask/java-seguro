@@ -1,6 +1,7 @@
 package com.boaglio.javaseguro.util;
 
 import java.math.BigInteger;
+import java.util.HexFormat;
 
 public class ByteUtil {
 
@@ -20,4 +21,9 @@ public class ByteUtil {
 		return digestHexa.toString();
 	}
 	
+	public static String bytesToHexaComHexFormat(byte[] byteArray) {
+		
+		return HexFormat.of().formatHex(byteArray);
+				 
+	}
 }

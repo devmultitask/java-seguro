@@ -16,7 +16,7 @@ public class TesteHashingMD5 {
 		StringUtil.line();
 		System.out.println(" Algoritmos Hash - Message Digest");
 		StringUtil.line();
-		System.out.println(" - um sentido (do hash não dá para descobrir a entrara)");
+		System.out.println(" - um sentido (do hash não dá para descobrir a entrada)");
 		System.out.println(" - determinístico - a mesma entrada sempre dá o mesmo resultado");
 		System.out.println(" - pseudorandom - um hash/digest novo é bem diferente de um antigo");
 		System.out.println(" - tamanho fixo - uma entrada diferente gera um digest com o mesmo tamanho");
