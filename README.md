@@ -13,7 +13,8 @@ Java Seguro - aprenda Java e conceitos de segurança
 * [Java Seguro - parte 1 - MD5](https://youtu.be/fwpWAH9-b_g)
 * [Java Seguro - parte 2 - MD5 com salt](https://youtu.be/EAv_hsmGEW0)
 * [Java Seguro - parte 3 - base64](https://youtu.be/EqtxxoI9qfE)
-* [Java Seguro - parte 4 - AES e DES] 
+* [Java Seguro - parte 4 - DES](https://youtu.be/) 
+* [Java Seguro - parte 5 - AES e RSA](https://youtu.be/) 
 
 ## Teste de ECB com imagens
 
