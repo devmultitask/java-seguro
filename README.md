@@ -30,9 +30,8 @@ openssl enc -aes-128-ecb -nosalt -pbkdf2 -pass pass:"Boaglio" -in body.bin -out 
 # encrypt com ECB + salt
 openssl enc -aes-128-ecb -salt -pbkdf2 -pass pass:"Boaglio" -in body.bin -out body.ecb-salt.bin
 
-# encrypt com CBC (cipher block chaining) 
+# encrypt com CBC (cipher block chaining) - semantically secure
 openssl enc -aes-128-cbc -pbkdf2 -pass pass:"Boaglio" -in body.bin -out body.cbc.bin
-
 
 # montar a imagem resultado
 cat header.txt body.ecb.bin > dev-multitask.ecb.ppm
@@ -44,3 +43,4 @@ cat header.txt body.cbc.bin > dev-multitask.cbc.ppm
 
 * [Cryptography 101 for Java developers by Michel Schudel](https://youtu.be/1925zmDP_BY)
 * [ECB Image Test](https://words.filippo.io/the-ecb-penguin/)
+* [Java AES encryption and decryption](https://mkyong.com/java/java-aes-encryption-and-decryption/)
